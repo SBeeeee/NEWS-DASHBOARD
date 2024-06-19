@@ -3,7 +3,7 @@ const fetchNews = async (place) => {
 
     'country=' + place +
     'pageSize=7&' +
-    'apiKey='                  //use ur api key after '='
+    'apiKey=b4bf131964074315b4cb6a300a957ee6'
     ;
   var req = new Request(url);
   let a = await fetch(req);
@@ -25,5 +25,4 @@ const fetchNews = async (place) => {
 };
 
 fetchNews("in&")
-
 
